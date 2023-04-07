@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Signika+Negative&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: #e0dfd6;
+}
+.button{
+  font-size: 1.2rem;
+  width: 3rem;
+  height: 4rem;
+  margin: 0 2px;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 9px;
+  
+}
+.row{
+  margin: 5px 0;
+/*   display: flex; */
+}
+.input{
+  margin-top: 5px;
+  padding: 0rem 0.5rem;
+  font-size: medium;
+  line-height: 2;
+  border-radius: 7px;
+}
+
